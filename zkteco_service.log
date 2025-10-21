@@ -1,0 +1,91 @@
+2025-10-21 12:41:45,366 - zkteco_client - ERROR - ❌ Erreur connexion ZKTeco: can't reach device (ping 192.168.41.155)
+2025-10-21 12:41:45,588 - api_client - INFO - ✅ API accessible: http://localhost:8000/api/health
+2025-10-21 12:42:51,228 - zkteco_client - ERROR - ❌ Erreur connexion ZKTeco: can't reach device (ping 192.168.41.155)
+2025-10-21 12:42:51,403 - api_client - INFO - ✅ API accessible: http://localhost:8000/api/health
+2025-10-21 12:43:45,630 - zkteco_client - INFO - ✅ Connecté au device ZKTeco 192.168.43.33:4370
+2025-10-21 12:43:45,645 - zkteco_client - INFO - 📟 Device info:  
+2025-10-21 12:43:45,658 - zkteco_client - INFO - ✅ Déconnecté du device ZKTeco
+2025-10-21 12:43:45,761 - zkteco_client - INFO - ✅ Connecté au device ZKTeco 192.168.43.33:4370
+2025-10-21 12:43:46,228 - zkteco_client - INFO - ✅ Déconnecté du device ZKTeco
+2025-10-21 12:43:46,403 - api_client - INFO - ✅ API accessible: http://localhost:8000/api/health
+2025-10-21 12:44:08,931 - zkteco_client - INFO - ✅ Connecté au device ZKTeco 192.168.43.33:4370
+2025-10-21 12:44:08,964 - zkteco_client - INFO - 📟 Device info:  
+2025-10-21 12:44:08,976 - zkteco_client - INFO - ✅ Déconnecté du device ZKTeco
+2025-10-21 12:44:09,127 - zkteco_client - INFO - ✅ Connecté au device ZKTeco 192.168.43.33:4370
+2025-10-21 12:44:09,579 - zkteco_client - INFO - ✅ Déconnecté du device ZKTeco
+2025-10-21 12:44:09,739 - api_client - INFO - ✅ API accessible: http://localhost:8000/api/health
+2025-10-21 12:44:38,278 - zkteco_client - ERROR - ❌ Erreur connexion ZKTeco: can't reach device (ping 192.168.43.33)
+2025-10-21 12:44:38,546 - api_client - INFO - ✅ API accessible: http://localhost:8000/api/health
+2025-10-21 12:49:38,921 - zkteco_client - INFO - ✅ Connecté au device ZKTeco 192.168.43.33:4370
+2025-10-21 12:49:38,937 - zkteco_client - INFO - 📟 Device info:  
+2025-10-21 12:49:38,966 - zkteco_client - INFO - ✅ Déconnecté du device ZKTeco
+2025-10-21 12:49:39,103 - zkteco_client - INFO - ✅ Connecté au device ZKTeco 192.168.43.33:4370
+2025-10-21 12:49:39,707 - zkteco_client - INFO - ✅ Déconnecté du device ZKTeco
+2025-10-21 12:49:39,862 - api_client - INFO - ✅ API accessible: http://localhost:8000/api/health
+2025-10-21 12:49:56,808 - service - INFO - ✅ Configuration mise à jour
+2025-10-21 12:50:05,474 - zkteco_client - INFO - ✅ Connecté au device ZKTeco 192.168.43.33:4370
+2025-10-21 12:50:05,484 - zkteco_client - INFO - 📟 Device info:  
+2025-10-21 12:50:05,503 - zkteco_client - INFO - ✅ Déconnecté du device ZKTeco
+2025-10-21 12:50:05,587 - zkteco_client - INFO - ✅ Connecté au device ZKTeco 192.168.43.33:4370
+2025-10-21 12:50:05,904 - zkteco_client - INFO - ✅ Déconnecté du device ZKTeco
+2025-10-21 12:50:06,062 - api_client - INFO - ✅ API accessible: http://localhost:8000/api/health
+2025-10-21 12:50:08,205 - service - INFO - ✅ Configuration mise à jour
+2025-10-21 12:53:49,970 - service - INFO - ✅ Configuration mise à jour
+2025-10-21 13:28:39,934 - service - INFO - 🔄 Démarrage de la boucle de surveillance
+2025-10-21 13:28:39,934 - service - INFO - 🚀 Service ZKTeco démarré
+2025-10-21 13:28:39,935 - service - INFO - 🔍 Vérification des pointages...
+2025-10-21 13:28:39,936 - service - ERROR - 💥 Erreur lors de la vérification: Config.get() takes 2 positional arguments but 3 were given
+2025-10-21 13:33:39,979 - service - INFO - 🔍 Vérification des pointages...
+2025-10-21 13:33:39,991 - service - ERROR - 💥 Erreur lors de la vérification: Config.get() takes 2 positional arguments but 3 were given
+2025-10-21 13:33:44,992 - service - INFO - 🛑 Service ZKTeco arrêté
+2025-10-21 13:34:36,609 - zkteco_client - INFO - ✅ Connecté au device ZKTeco 192.168.43.33:4370
+2025-10-21 13:34:37,337 - zkteco_client - INFO - 📊 24 pointages récupérés
+2025-10-21 13:34:37,510 - zkteco_client - INFO - ✅ Déconnecté du device ZKTeco
+2025-10-21 13:34:37,522 - zkteco_client - INFO - 📅 5 pointages entre 2025-10-20 00:00:00 et 2025-10-21 13:34:28
+2025-10-21 13:35:01,238 - api_client - INFO - 📤 Tentative 1/3 - Envoi de 5 pointages
+2025-10-21 13:35:01,508 - api_client - INFO - ✅ Réponse API: Pointages sauvegardés avec succès
+2025-10-21 13:35:01,508 - api_client - INFO - 📊 Statistiques: 0 sauvegardés, 5 doublons ignorés
+2025-10-21 13:35:15,846 - zkteco_client - INFO - ✅ Connecté au device ZKTeco 192.168.43.33:4370
+2025-10-21 13:35:16,590 - zkteco_client - INFO - 📊 24 pointages récupérés
+2025-10-21 13:35:16,845 - zkteco_client - INFO - ✅ Déconnecté du device ZKTeco
+2025-10-21 13:35:16,846 - zkteco_client - INFO - 📅 4 pointages entre 2025-10-20 00:00:00 et 2025-10-20 23:59:59
+2025-10-21 13:35:35,255 - api_client - INFO - 📤 Tentative 1/3 - Envoi de 4 pointages
+2025-10-21 13:35:35,453 - api_client - INFO - ✅ Réponse API: Pointages sauvegardés avec succès
+2025-10-21 13:35:35,453 - api_client - INFO - 📊 Statistiques: 0 sauvegardés, 4 doublons ignorés
+2025-10-21 13:53:31,474 - zkteco_client - INFO - ✅ Connecté au device ZKTeco 192.168.43.33:4370
+2025-10-21 13:53:32,150 - zkteco_client - INFO - 📊 24 pointages récupérés
+2025-10-21 13:53:32,311 - zkteco_client - INFO - ✅ Déconnecté du device ZKTeco
+2025-10-21 13:53:32,313 - zkteco_client - INFO - 📅 5 pointages entre 2025-10-20 00:00:00 et 2025-10-21 13:53:04
+2025-10-21 13:53:49,444 - zkteco_client - INFO - ✅ Connecté au device ZKTeco 192.168.43.33:4370
+2025-10-21 13:53:50,201 - zkteco_client - INFO - 📊 24 pointages récupérés
+2025-10-21 13:53:50,315 - zkteco_client - INFO - ✅ Déconnecté du device ZKTeco
+2025-10-21 13:53:50,317 - zkteco_client - INFO - 📅 23 pointages entre 2025-02-20 00:00:00 et 2025-10-21 13:53:04
+2025-10-21 13:54:03,577 - api_client - INFO - 📤 Tentative 1/3 - Envoi de 23 pointages
+2025-10-21 13:54:03,774 - api_client - INFO - ✅ Réponse API: Pointages sauvegardés avec succès
+2025-10-21 13:54:03,774 - api_client - INFO - 📊 Statistiques: 0 sauvegardés, 23 doublons ignorés
+2025-10-21 13:54:32,590 - service - INFO - 🔄 Démarrage de la boucle de surveillance
+2025-10-21 13:54:32,590 - service - INFO - 🔍 Vérification des pointages...
+2025-10-21 13:54:32,591 - service - INFO - 🚀 Service ZKTeco démarré
+2025-10-21 13:54:37,601 - zkteco_client - ERROR - ❌ Erreur connexion ZKTeco: can't reach device (ping 192.168.43.33)
+2025-10-21 13:54:37,602 - zkteco_client - INFO - 📅 0 pointages depuis 2025-10-20 13:54:32.591104
+2025-10-21 13:54:37,602 - service - INFO - 📭 Aucun nouveau pointage
+2025-10-21 13:59:37,645 - service - INFO - 🔍 Vérification des pointages...
+2025-10-21 13:59:37,836 - zkteco_client - INFO - ✅ Connecté au device ZKTeco 192.168.43.33:4370
+2025-10-21 13:59:39,110 - zkteco_client - INFO - 📊 25 pointages récupérés
+2025-10-21 13:59:39,215 - zkteco_client - INFO - ✅ Déconnecté du device ZKTeco
+2025-10-21 13:59:39,216 - zkteco_client - INFO - 📅 3 pointages depuis 2025-10-20 13:59:37.645602
+2025-10-21 13:59:39,216 - service - INFO - 📥 3 nouveaux pointages à envoyer
+2025-10-21 13:59:39,217 - api_client - INFO - 📤 Tentative 1/3 - Envoi de 3 pointages
+2025-10-21 13:59:39,386 - api_client - INFO - ✅ Réponse API: Pointages sauvegardés avec succès
+2025-10-21 13:59:39,386 - api_client - INFO - 📊 Statistiques: 1 sauvegardés, 2 doublons ignorés
+2025-10-21 13:59:39,386 - service - INFO - ✅ Pointages envoyés avec succès
+2025-10-21 14:04:39,426 - service - INFO - 🔍 Vérification des pointages...
+2025-10-21 14:04:39,624 - zkteco_client - INFO - ✅ Connecté au device ZKTeco 192.168.43.33:4370
+2025-10-21 14:04:40,425 - zkteco_client - INFO - 📊 25 pointages récupérés
+2025-10-21 14:04:40,475 - zkteco_client - INFO - ✅ Déconnecté du device ZKTeco
+2025-10-21 14:04:40,476 - zkteco_client - INFO - 📅 1 pointages depuis 2025-10-21 13:59:39.386899
+2025-10-21 14:04:40,476 - service - INFO - 📥 1 nouveaux pointages à envoyer
+2025-10-21 14:04:40,477 - api_client - INFO - 📤 Tentative 1/3 - Envoi de 1 pointages
+2025-10-21 14:04:40,639 - api_client - INFO - ✅ Réponse API: Pointages sauvegardés avec succès
+2025-10-21 14:04:40,639 - api_client - INFO - 📊 Statistiques: 0 sauvegardés, 1 doublons ignorés
+2025-10-21 14:04:40,639 - service - INFO - ✅ Pointages envoyés avec succès
