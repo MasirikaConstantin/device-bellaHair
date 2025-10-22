@@ -4,11 +4,10 @@ from typing import List, Dict, Any
 import logging
 
 class ZKTecoClient:
-    def __init__(self, ip: str, port: int = 4370, timeout: int = 5):
+    def __init__(self, ip: str, timeout: int = 5):
         self.ip = ip
-        self.port = port
         self.timeout = timeout
-        self.zk = ZK(ip, port=port, timeout=timeout)
+        self.zk = ZK(ip, timeout=timeout)
         self.conn = None
         self.logger = logging.getLogger(__name__)
     
@@ -16,7 +15,7 @@ class ZKTecoClient:
         """Établir la connexion avec le device ZKTeco"""
         try:
             self.conn = self.zk.connect()
-            self.logger.info(f"✅ Connecté au device ZKTeco {self.ip}:{self.port}")
+            self.logger.info(f"✅ Connecté au device ZKTeco {self.ip}")
             return True
         except Exception as e:
             self.logger.error(f"❌ Erreur connexion ZKTeco: {e}")

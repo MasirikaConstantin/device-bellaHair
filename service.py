@@ -84,11 +84,10 @@ class ZKTecoService:
                 datetime.now() - timedelta(hours=24)  # Par défaut, dernières 24h
             )
             
-            # Récupérer les pointages
+            # CORRECTION : Utiliser seulement ip et port (pas de timeout en 4ème argument)
             zk_client = ZKTecoClient(
-                self.config.get('zkteco_ip', '192.168.41.155'),
-                self.config.get('zkteco_port', 4370),
-                self.config.get('timeout', 5)
+                self.config.get('zkteco_ip', '192.168.43.33'),
+                self.config.get('zkteco_port', 4370)
             )
             
             attendances = zk_client.get_attendance_since(since_date)
@@ -118,23 +117,48 @@ class ZKTecoService:
     
     def test_connection(self, ip: str = None) -> dict:
         """Tester la connectivité complète"""
-        test_ip = ip or self.config.get('zkteco_ip', '192.168.41.155')
-        results = {'zkteco': False, 'api': False, 'device_info': {}}
+        test_ip = ip or self.config.get('zkteco_ip', '192.168.43.33')
+        results = {
+            'zkteco': False, 
+            'api': False, 
+            'device_info': {},
+            'zkteco_error': None,
+            'api_error': None
+        }
         
         try:
-            # Test connexion ZKTeco
-            zk_client = ZKTecoClient(test_ip, self.config.get('zkteco_port', 4370))
-            results['zkteco'] = zk_client.test_connection()
+            # CORRECTION : Utiliser seulement ip et port
+            zk_client = ZKTecoClient(
+                test_ip, 
+                self.config.get('zkteco_port', 4370)
+            )
             
-            if results['zkteco']:
-                results['device_info'] = zk_client.get_device_info()
+            try:
+                results['zkteco'] = zk_client.test_connection()
+                
+                # Récupérer les informations de base du device si connecté
+                if results['zkteco']:
+                    results['device_info'] = {
+                        'ip_address': test_ip,
+                        'port': self.config.get('zkteco_port', 4370),
+                        'status': 'Connecté avec succès',
+                        'test_time': datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+                    }
+                    
+            except Exception as e:
+                results['zkteco_error'] = str(e)
+                self.logger.error(f"❌ Erreur test ZKTeco: {e}")
             
             # Test connexion API
-            api_client = APIClient(self.config.get('api_url', 'http://localhost:8000/api/pointages'))
-            results['api'] = api_client.test_connection()
-            
+            try:
+                api_client = APIClient(self.config.get('api_url', 'http://localhost:8000/api/pointages'))
+                results['api'] = api_client.test_connection()
+            except Exception as e:
+                results['api_error'] = str(e)
+                self.logger.error(f"❌ Erreur test API: {e}")
+                
         except Exception as e:
-            self.logger.error(f"❌ Erreur test connexion: {e}")
+            self.logger.error(f"❌ Erreur générale test connexion: {e}")
         
         return results
     
