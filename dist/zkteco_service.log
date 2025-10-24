@@ -1,0 +1,41 @@
+2025-10-22 17:09:24,083 - zkteco_client - ERROR - ❌ Erreur connexion ZKTeco: can't reach device (ping 192.168.41.155)
+2025-10-22 17:09:24,084 - api_client - INFO - 🧪 Test de connexion API: http://192.168.1.100:8000/api/pointages
+2025-10-22 17:09:29,090 - zkteco_client - ERROR - ❌ Erreur connexion ZKTeco: can't reach device (ping 192.168.41.155)
+2025-10-22 17:09:29,091 - api_client - INFO - 🧪 Test de connexion API: http://192.168.1.100:8000/api/pointages
+2025-10-22 17:09:48,596 - service - INFO - ✅ Configuration mise à jour
+2025-10-22 17:09:56,090 - zkteco_client - ERROR - ❌ Erreur connexion ZKTeco: can't reach device (ping 192.168.41.155)
+2025-10-22 17:09:56,093 - api_client - INFO - 🧪 Test de connexion API: https://bellahair.agustcompanyagency.com/api/pointages
+2025-10-22 17:09:58,360 - api_client - INFO - ✅ Test OPTIONS réussi
+2025-10-22 17:10:04,138 - api_client - ERROR - 🔌 Impossible de se connecter à l'API
+2025-10-22 17:10:09,146 - api_client - ERROR - 🔌 Impossible de se connecter à l'API
+2025-10-23 16:16:37,900 - zkteco_client - ERROR - ❌ Erreur connexion ZKTeco: can't reach device (ping 192.168.41.155)
+2025-10-23 16:16:37,907 - api_client - INFO - 🧪 Test de connexion API: https://bellahair.agustcompanyagency.com/api/pointages
+2025-10-23 16:16:40,251 - api_client - INFO - ✅ Test OPTIONS réussi
+2025-10-23 16:16:54,202 - service - INFO - ✅ Configuration mise à jour
+2025-10-23 16:16:56,669 - service - INFO - ✅ Configuration mise à jour
+2025-10-23 16:16:59,532 - zkteco_client - INFO - ✅ Connecté au device ZKTeco 192.168.127.33
+2025-10-23 16:16:59,557 - zkteco_client - INFO - ✅ Déconnecté du device ZKTeco
+2025-10-23 16:16:59,559 - api_client - INFO - 🧪 Test de connexion API: https://bellahair.agustcompanyagency.com/api/pointages
+2025-10-23 16:17:01,610 - api_client - INFO - ✅ Test OPTIONS réussi
+2025-10-23 16:17:15,007 - service - INFO - 🔄 Démarrage de la boucle de surveillance
+2025-10-23 16:17:15,007 - service - INFO - 🚀 Service ZKTeco démarré
+2025-10-23 16:17:15,007 - service - INFO - 🔍 Vérification des pointages...
+2025-10-23 16:17:15,111 - zkteco_client - INFO - ✅ Connecté au device ZKTeco 192.168.127.33
+2025-10-23 16:17:15,410 - zkteco_client - INFO - 📊 31 pointages récupérés
+2025-10-23 16:17:15,433 - zkteco_client - INFO - ✅ Déconnecté du device ZKTeco
+2025-10-23 16:17:15,441 - zkteco_client - INFO - 📅 4 pointages depuis 2025-10-22 16:17:15.008468
+2025-10-23 16:17:15,443 - service - INFO - 📥 4 nouveaux pointages à envoyer
+2025-10-23 16:17:15,443 - api_client - INFO - 📤 Tentative 1/3 - Envoi de 4 pointages
+2025-10-23 16:17:17,412 - api_client - INFO - ✅ Réponse API: Pointages sauvegardés avec succès
+2025-10-23 16:17:17,413 - api_client - INFO - 📊 2 sauvegardés, 2 doublons ignorés
+2025-10-23 16:17:17,413 - service - INFO - ✅ Pointages envoyés avec succès
+2025-10-23 16:22:17,662 - service - INFO - 🔍 Vérification des pointages...
+2025-10-23 16:22:17,955 - zkteco_client - INFO - ✅ Connecté au device ZKTeco 192.168.127.33
+2025-10-23 16:22:18,433 - zkteco_client - INFO - 📊 32 pointages récupérés
+2025-10-23 16:22:18,453 - zkteco_client - INFO - ✅ Déconnecté du device ZKTeco
+2025-10-23 16:22:18,466 - zkteco_client - INFO - 📅 1 pointages depuis 2025-10-23 16:17:17.413610
+2025-10-23 16:22:18,475 - service - INFO - 📥 1 nouveaux pointages à envoyer
+2025-10-23 16:22:18,492 - api_client - INFO - 📤 Tentative 1/3 - Envoi de 1 pointages
+2025-10-23 16:22:19,888 - api_client - INFO - ✅ Réponse API: Pointages sauvegardés avec succès
+2025-10-23 16:22:19,890 - api_client - INFO - 📊 1 sauvegardés, 0 doublons ignorés
+2025-10-23 16:22:19,892 - service - INFO - ✅ Pointages envoyés avec succès

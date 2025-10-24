@@ -1,0 +1,5 @@
+{
+  "zkteco_ip": "192.168.127.33",
+  "api_url": "https://bellahair.agustcompanyagency.com/api/pointages",
+  "polling_interval": 300
+}
